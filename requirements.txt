@@ -1,0 +1,12 @@
+ Flask
+ Flask-Cors
+ Flask-JWT-Extended
+ Flask-Mail
+ Flask-Bcrypt
+ python-dotenv
+ pymongo
+ bcrypt
+ PyQt5
+ PyQt5
+ requests
+ matplotlib

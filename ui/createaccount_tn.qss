@@ -1,0 +1,134 @@
+QWidget {
+    background: #050A1A;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+QLabel#title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00FFFF;
+    text-align: center;
+    letter-spacing: 1px;
+    background: transparent;
+}
+
+QLineEdit {
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid rgba(0, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 12px 45px;
+    font-size: 18px;
+    color: white;
+}
+
+QLineEdit::placeholder {
+    color: #A3B9D3;
+    font-style: italic;
+}
+
+QLineEdit:hover, QLineEdit:focus {
+    border: 2px solid white;
+}
+
+QPushButton#createaccountbutton {
+    background: rgba(0, 255, 0, 0.8);
+    color: black;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 255, 0, 0 , 1);
+}
+
+QPushButton#createaccountbutton:hover {
+    background: rgba(0, 255, 0, 1);
+    border: 2px solid white;
+    font-style: italic;
+}
+
+QPushButton#switchButton {
+    background: transparent;
+    border: none;
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QPushButton#switchButton:hover {
+    color: white;
+    font-style : italic;
+}
+
+QPushButton#backButton {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #00FFFF;
+}
+
+QPushButton#backButton:hover {
+    color: white;
+}
+
+QSpinBox, QComboBox {
+    background: rgba(0, 255, 255, 0.1);
+    border: 2px solid rgba(0, 255, 255, 0.8);
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 18px;
+    color: white;
+    selection-background-color: #00FFFF;
+}
+
+QSpinBox::up-button, QSpinBox::down-button {
+    width: 20px;
+    height: 20px;
+    subcontrol-origin: content;
+}
+
+QSpinBox::up-button {
+    subcontrol-position: top right;
+    border-left: 2px solid rgba(0, 255, 255, 0.8);
+    border-bottom: 2px solid rgba(0, 255, 255, 0.8);
+    border-top-right-radius: 10px;
+}
+
+QSpinBox::down-button {
+    subcontrol-position: bottom right;
+    border-left: 2px solid rgba(0, 255, 255, 0.8);
+    border-top: 2px solid rgba(0, 255, 255, 0.8);
+    border-bottom-right-radius: 10px;
+}
+
+QSpinBox:hover, QSpinBox:focus, QComboBox:hover, QComboBox:focus {
+    border: 2px solid white;
+}
+
+QPushButton { 
+    background: rgba(0, 150, 0, 0.7); 
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton:hover {
+    background: rgba(0, 200, 0, 0.9);
+}
+
+QPushButton#upload_button {
+    background: rgba(0, 100, 200, 0.7);
+    color: white;
+    border-radius: 8px;
+    padding: 8px 15px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+}
+
+QPushButton#upload_button:hover {
+    background: rgba(0, 150, 250, 0.9);
+}

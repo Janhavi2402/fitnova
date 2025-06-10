@@ -1,0 +1,125 @@
+/* trainer_dashboard.qss */
+
+QWidget {
+    background-color:rgb(2, 57, 68); 
+    font-family: Arial;
+    font-size: 14px;
+    color : white;
+}
+
+QFrame#sidebar {
+    background-color: #191970; 
+    color: white;
+    padding: 10px;
+}
+
+QFrame#trainer_info_frame {
+    background-color: #282880; 
+    padding: 15px;
+}
+
+QLabel#profile_picture_label {
+    border-radius: 50px; 
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+QLabel {
+    color: white;
+}
+
+QPushButton#sidebarButton {
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: left;
+    font-size: 14px;
+    font-weight: bold
+    
+}
+
+QPushButton#sidebarButton:hover {
+    background-color: #282880; 
+}
+
+QPushButton#sidebarButton:pressed {
+    background-color: #1f1f66;
+}
+
+QStackedWidget#content_area {
+    background-color:rgb(239, 239, 245) ; 
+    padding: 20px;
+}
+
+QScrollArea#edit_profile_widget {
+    background-color: #ecf0f1; 
+    border: 1px solid #bdc3c7; 
+}
+
+QWidget#formFrame {
+    background-color: #ecf0f1; 
+    border: 1px solid #bdc3c7; 
+    padding: 10px; 
+}
+
+QLineEdit {
+    background-color: #ecf0f1; 
+    border: 1px solid #bdc3c7; 
+    padding: 10px;
+    border-radius: 5px;
+    margin: 5px;
+    color: #333;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3498db; 
+}
+
+QPushButton#saveButton {
+    background-color:rgb(11, 207, 24); 
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 20px;
+    font-size: 16px;
+    color : white;
+}
+
+QPushButton#saveButton:hover {
+    background-color:rgb(21, 150, 6);
+}
+
+QPushButton#saveButton:pressed {
+    background-color:rgba(8, 192, 91, 0.73); /* Even darker green when pressed */
+}
+
+QWidget#trainerProfileView {
+    background-color: transparent;
+    margin: 10px;
+    padding: 20px;
+}
+
+QWidget#formContainer { /* Style the QWidget container */
+    background-color: #ecf0f1;
+    border: 1px solid #bdc3c7;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#trainerProfileView QLabel {
+    color: black;
+}
+
+#trainerProfileView QLabel:first-child {
+    font-weight: bold;
+    min-width: 120px;
+}
+
+#trainerProfileView QLabel:nth-child(2) {
+    background-color: white;
+    padding: 5px;
+    border-radius: 5px;
+}

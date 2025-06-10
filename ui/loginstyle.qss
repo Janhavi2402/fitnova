@@ -1,0 +1,74 @@
+QWidget {
+    background-color: #0f2027;
+    background: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0,
+                                    stop:0 #0f2027,
+                                    stop:0.5 #203a43,
+                                    stop:1 #2c5364);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+#backButton {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+    border: none;
+}
+
+#backButton:hover {
+    color: #00ffcc;
+}
+
+#loginButton {
+    background-color: #121212;
+    color: white;
+    border: 2px solid #00ffcc;
+    border-radius: 12px;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    min-width: 140px;
+    text-align: center;
+}
+
+#loginButton:hover {
+    background-color: #00ffcc;
+    color: black;
+}
+
+#loginMenu {
+    background-color: rgba(30, 30, 30, 0.95);
+    color: white;
+    border: 1px solid #00ffcc;
+    border-radius: 8px;
+    padding: 5px 0;
+}
+
+QMenu::item {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+
+QMenu::item:selected {
+    background-color: #00ffcc;
+    color: black;
+    border-radius: 5px;
+}
+
+QLabel#app_intro {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 1px;
+    max-width: 90%;
+    white-space: normal;
+    padding: 15px;
+}
+
+.glow-text {
+    color: #00ffcc;
+}
+

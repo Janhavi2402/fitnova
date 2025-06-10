@@ -1,0 +1,96 @@
+QWidget {
+    background: #050A1A; 
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+QFrame#formFrame {
+    border-radius: 15px;
+    padding: 25px;
+    border: 2px solid rgba(0, 255, 255, 0.8);
+    
+}
+
+QFrame#formFrame:hover{
+    border: 2px solid white;
+    background: qradialgradient(spread:pad , cx:0.5 , cy:0.5 , radius:0.6 , fx: 0.5 , fy:0.5 , stop: 0 rgba(0 , 255 , 255 , 0.3) , stop:1 rgba(0 , 255 , 255 , 0.1));
+}
+
+QLabel#title {
+    font-size: 30px;
+    font-weight: bold;
+    color: #00FFFF; 
+    text-align: center;
+    letter-spacing: 1px;
+    background: transparent;
+    
+}
+
+
+QLineEdit {
+    background: rgba(0, 255, 255, 0.1); 
+    border: 2px solid rgba(0, 255, 255, 0.8); 
+    border-radius: 10px;
+    padding: 12px 45px;
+    font-size: 18px;
+    color: white;
+    
+}
+
+QLineEdit::placeholder {
+    color: #A3B9D3; 
+    font-style: italic;
+}
+
+QLineEdit:hover, QLineEdit:focus {
+    border: 2px solid white;
+    
+}
+
+QPushButton#createaccountbutton {
+    background: rgba(0, 255, 0, 0.8);
+    color: black;
+    border-radius: 10px;
+    padding: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    border: 2px solid rgba(0, 255, 0, 0 , 1);
+    
+}
+
+QPushButton#createaccountbutton:hover {
+    background: rgba(0, 255, 0, 1);
+    border: 2px solid white;
+    font-style: italic;
+}
+
+QPushButton#switchButton {
+    background: transparent;
+    border: none;
+    color: #00FFFF;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+QPushButton#switchButton:hover {
+    color: white;
+    font-style : italic;
+}
+
+QPushButton#backButton {
+    background: none;
+    border: none;
+    font-size: 22px;
+    color: #00FFFF;
+    position: relative;
+    top: -10px;
+}
+
+QPushButton#backButton:hover {
+    color: white;
+}
+
+
+QWidget QLineEdit {
+    padding-left: 40px; 
+}
